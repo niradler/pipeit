@@ -1,12 +1,20 @@
 {
-  "name": "pipeit",
+  "name": "compose-pipe",
   "version": "0.0.1",
-  "description": "",
+  "description": "```\r const addOne = x => x + 1;\r const addTwo = x => x + 2;\r const addThree = x => x + 3;",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Nir Adler <niradler55@email.com> (https://niradler.com)",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niradler/pipeit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/niradler/pipeit/issues"
+  },
+  "homepage": "https://github.com/niradler/pipeit#readme"
 }

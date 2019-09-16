@@ -1,2 +1,2 @@
-const pipeit = require("./pipeit");
-module.exports = pipeit;
+const pipe = require("./compose-pipe");
+module.exports = pipe;

@@ -1,4 +1,4 @@
-# pipeit
+# compose-pipe
 
 ```
 const addOne = x => x + 1;

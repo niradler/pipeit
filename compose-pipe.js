@@ -13,7 +13,7 @@ const validate = obj => {
   }
 };
 
-const pipeit = (obj, initialState, options = { debug: false }) => {
+const pipe = (obj, initialState, options = { debug: false }) => {
   validate(obj);
   let state = initialState;
   const proxy = new Proxy(obj, {
@@ -41,4 +41,4 @@ const pipeit = (obj, initialState, options = { debug: false }) => {
   return proxy;
 };
 
-module.exports = pipeit;
+module.exports = pipe;
