@@ -1,6 +1,6 @@
 {
   "name": "compose-pipe",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "```\r const addOne = x => x + 1;\r const addTwo = x => x + 2;\r const addThree = x => x + 3;",
   "main": "index.js",
   "scripts": {
